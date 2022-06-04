@@ -1,0 +1,68 @@
+.mainButton{
+   
+ background-color: rgba(0, 240, 40, 0.521);   
+ font-size: 2em;
+}
+.todoElement{
+ background-color: rgba(145, 202, 122, 0.4);
+height: 200px;
+ width:400px ;
+ position: relative;
+ padding: 15px 30px;
+ border: 1px solid black;
+ 
+}
+.todoElement__deleteButton{
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    background-color: rgba(212, 39, 33, 0.596);
+    padding: 10px 15px;
+    border: 2px solid black;
+}
+.todoElement__deleteButton:hover{
+    background-color: red;
+}
+.todoElement__deleteButton:active{
+    background-color: tomato;
+}
+
+
+.todoElement__updateButton{
+     bottom: 20px;
+     left: 20px;
+     position: absolute;
+     background-color: rgba(82, 219, 70, 0.37);
+     padding: 10px 15px;
+     border: 1px solid black;
+     border-radius: 5px;
+     transition: 300ms;
+
+}
+.todoElement__updateButton:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+.todoElement__updateButton:active{
+    background-color: rgba(82, 219, 70, 0.37);
+    cursor: 'unset';
+}
+.todoElement__doneButton{
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+    background-color: rgba(70, 117, 219, 0.37);
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 300ms;
+
+}
+.todoElement__doneButton:hover {
+   background-color: rgb(195, 0, 255);
+   cursor: pointer;
+}
+.todoElement__doneButton:active{
+   background-color: rgba(70, 117, 219, 0.37);
+   cursor: 'unset';
+}
